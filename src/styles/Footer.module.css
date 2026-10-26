@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1E1E1E;
+
+    & .div_top {
+        width: 100%;
+        height: 281px;
+        padding: 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .div_left {
+            width: 360px;
+            height: 138px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            & .logo h2 {
+                color: #FFF;
+                font-family: "Barlow Condensed";
+                font-size: 41px;
+                font-weight: 700;
+
+                & span {
+                    color: #E98221;
+                    font-family: "Barlow Condensed";
+                    font-size: 41px;
+                    font-weight: 700;
+                }
+            }
+
+            & .logo p {
+                color: #FFF;
+                font-size: 14px;
+                font-weight: 800;
+                letter-spacing: 1.26px;
+            }
+
+            & .links {
+                display: flex;
+                gap: 15px;
+
+                & a {
+                    color: #FFF;
+                    font-size: 14px;
+                    font-weight: 800;
+                    letter-spacing: 1.26px;
+                }
+            }
+        }
+
+        & .div_right {
+            width: 215px;
+            height: 137px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: top;
+            gap: 15px;
+
+            & h2 {
+                color: #FFF;
+                text-align: center;
+                font-family: "Barlow Condensed";
+                font-size: 41px;
+                font-weight: 700;
+
+                & span {
+                    color: #BC691B;
+                    font-family: "Barlow Condensed";
+                    font-size: 41px;
+                    font-weight: 700;
+                }
+            }
+
+            & .container_redesSociais{
+                display: flex;
+                gap: 15px;
+            }
+        }
+    }
+
+    & .div_bottom {
+        width: 100%;
+        height: 99px;
+        padding: 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid rgba(113, 113, 113, 0.32);
+
+        & h3 {
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 1.26px;
+        }
+    }
+}

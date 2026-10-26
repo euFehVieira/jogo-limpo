@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    padding: 32px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .logo h1 {
+        color: #000;
+        font-family: "Barlow Condensed";
+        font-size: 41px;
+        font-weight: 700;
+
+        & span {
+            color: #E98221;
+            font-family: "Barlow Condensed";
+            font-size: 41px;
+            font-weight: 700;
+        }
+    }
+
+    & .navbar {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        & a {
+            color: #000;
+            font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    & .botao {
+        padding: 10px 15px;
+        border-radius: 5px;
+        background: #BC691B;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

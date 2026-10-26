@@ -1,19 +1,23 @@
+import styles from "../styles/Header.module.css";
+
 function Header() {
   return (
-    <header>
-      <a href="/">
+    <header className={styles.header}>
+      <a href="/" className={styles.logo}>
         <h1>
           JOGO<span>LIMPO</span>
         </h1>
       </a>
 
-      <nav>
+      <nav className={styles.navbar}>
         <a href="/">Início</a>
         <a href="/esportes">Esportes</a>
-        <a href="/proconceito">Preconceito</a>
+        <a href="/preconceito">Preconceito</a>
       </nav>
 
-      <a href="/facaparte">Faça parte</a>
+      <a href="/facaparte" className={styles.botao}>
+        Faça parte
+      </a>
     </header>
   );
 }
