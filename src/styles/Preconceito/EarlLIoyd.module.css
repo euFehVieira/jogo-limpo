@@ -1,7 +1,6 @@
 .container_Sobre {
     width: 100%;
     height: auto;
-    background-color: rgb(173, 245, 219);
     display: flex;
     flex-direction: column;
     gap: 70px;
