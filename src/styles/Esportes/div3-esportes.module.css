@@ -1,0 +1,64 @@
+.div3_esportes {
+    width: 665px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & h3 {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 2.55px;
+
+        & span {
+            color: #6DD495;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 2.55px;
+        }
+    }
+
+    & h2 {
+        width: 591px;
+        color: #FFF;
+        font-family: "Barlow Condensed";
+        font-size: 90px;
+        font-weight: 800;
+        line-height: 110%;
+
+        & span {
+            color: #6DD495;
+            font-family: "Barlow Condensed";
+            font-size: 90px;
+            font-weight: 800;
+        }
+    }
+
+    & p {
+        color: #FFF;
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    & .frase {
+        height: 52px;
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+
+        & span {
+            width: 3.5px;
+            border-radius: 50px;
+            height: 52px;
+            background: #6DD495;
+        }
+
+        & p {
+            width: 522px;
+            color: #FFF;
+            font-size: 17.5px;
+            font-weight: 700;
+        }
+    }
+}

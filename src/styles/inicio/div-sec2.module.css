@@ -14,7 +14,7 @@
     & h3 {
         color: #1E1E1E;
         font-family: "Barlow Condensed";
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 800;
     }
 }
@@ -32,6 +32,7 @@
         font-family: "Barlow Condensed";
         font-size: 90px;
         font-weight: 800;
+        line-height: 110%;
 
         & span {
             color: #6DD495;

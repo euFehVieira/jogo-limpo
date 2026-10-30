@@ -15,7 +15,6 @@
 
     & h3 {
         color: #FFF;
-        font-family: "DM Sans";
         font-size: 16px;
         font-weight: 800;
         letter-spacing: 2.4px;
@@ -27,6 +26,7 @@
         font-family: "Barlow Condensed";
         font-size: 90px;
         font-weight: 800;
+        line-height: 110%;
 
         & span {
             color: #6DD495;

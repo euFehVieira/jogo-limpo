@@ -1,0 +1,69 @@
+.divGeral {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    & p {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.container_cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    & .card {
+        width: 280px;
+        height: 350px;
+        background-color: #2D2D2D;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        border-radius: 8px;
+
+        & .caixinha_letra {
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px #6DD495 solid;
+
+            & h3 {
+                color: #6DD495;
+                font-family: "Barlow Condensed";
+                font-size: 30px;
+                font-weight: 800;
+                line-height: 100%;
+            }
+        }
+
+        & h2 {
+            color: #FFF;
+            font-family: "Barlow Condensed";
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        & p {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        & h4 {
+            color: #6DD495;
+            font-family: "DM Sans";
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: 1.7px;
+        }
+    }
+}

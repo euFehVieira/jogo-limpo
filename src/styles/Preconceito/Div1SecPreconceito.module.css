@@ -1,0 +1,47 @@
+.titulos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .div_left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        & h3 {
+            color: #FFF;
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: 2.55px;
+        }
+
+        & h2 {
+            width: 550px;
+            color: #FFF;
+            font-family: "Barlow Condensed";
+            font-size: 90px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 110%;
+
+            & span {
+                color: #BC691B;
+                font-family: "Barlow Condensed";
+                font-size: 90px;
+                font-weight: 800;
+                line-height: 100%;
+            }
+        }
+    }
+
+    & .div_right {
+        width: 451px;
+        height: 86px;
+
+        & p {
+            color: #FFF;
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+}
